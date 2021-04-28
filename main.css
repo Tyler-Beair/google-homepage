@@ -1,3 +1,24 @@
 .header-bar {
-margin: 10 grey;
+   position: fixed;
+    background-color: grey;
+    width: 100%;
+    padding: 17px;
+    top: 0%;
+
 }
+
+.header-bar a {
+float: left;
+display: block;
+text-align: center;
+font-size: 17px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 25px;
+}
+
